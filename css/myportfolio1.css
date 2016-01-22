@@ -30,3 +30,7 @@ li:hover{
 .btn-info:hover {
   background-color: yellow;
 }
+
+table{
+  color:white;
+}
