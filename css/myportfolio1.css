@@ -27,10 +27,14 @@ li:hover{
   color: yellow;
 }
 
+
 .btn-info:hover {
+  transition: 0.3s ease 0s;
   background-color: yellow;
 }
 
 table{
   color:white;
 }
+
+
