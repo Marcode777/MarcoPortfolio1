@@ -29,7 +29,7 @@ li:hover{
 
 
 .btn-info:hover {
-  transition: 0.3s ease 0s;
+  transition: 0.5s ease 0s;
   background-color: yellow;
 }
 
