@@ -1,24 +1,24 @@
-{
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js", //changed index.js to server.js
-  "devDependencies": {}, //this was added 
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js" //this we add to tell it to run node server.js 
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Marcode777/MarcoPortfolio1.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Marcode777/MarcoPortfolio1/issues"
-  },
-  "homepage": "https://github.com/Marcode777/MarcoPortfolio1#readme",
-  "dependencies": {
-    "express": "^4.13.4"
-  }
-}
+// {
+//   "name": "portfolio",
+//   "version": "1.0.0",
+//   "description": "",
+//   "main": "server.js", //changed index.js to server.js
+//   "devDependencies": {}, //this was added 
+//   "scripts": {
+//     "test": "echo \"Error: no test specified\" && exit 1",
+//     "start": "node server.js" //this we add to tell it to run node server.js 
+//   },
+//   "repository": {
+//     "type": "git",
+//     "url": "git+https://github.com/Marcode777/MarcoPortfolio1.git"
+//   },
+//   "author": "",
+//   "license": "ISC",
+//   "bugs": {
+//     "url": "https://github.com/Marcode777/MarcoPortfolio1/issues"
+//   },
+//   "homepage": "https://github.com/Marcode777/MarcoPortfolio1#readme",
+//   "dependencies": {
+//     "express": "^4.13.4"
+//   }
+// }
