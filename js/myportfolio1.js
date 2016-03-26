@@ -4,8 +4,9 @@
   
 
 //this is for the api function
-
+console.log("outside of .ready");
   $(document).ready(function(){
+    console.log("inside of .ready");
   $.ajax({
     type:"GET",
     url:"https://api.github.com/users/marcode777/repos",
