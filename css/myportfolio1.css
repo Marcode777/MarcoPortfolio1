@@ -16,11 +16,11 @@ color: white;
 
 li {
   color: white;
-  -o-transition: .7s;
-  -ms-transition: .7s;
-  -moz-transition:.7s;
-  -webkit-transition:.7s;
-  transition: .7s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
 }
 
 li:hover{
