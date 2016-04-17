@@ -1,206 +1,258 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <!-- changed back to 3.3.5 version-->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-      <link rel= "stylesheet" type= "text/css" href= "css/myportfolio1.css">
-      <title>
-         Marco's Porftolio
-      </title>
-   </head>
-   <body>
-      <div>
-         <!--Start of my carousel-->
-         <div id="my-carousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-               <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-               <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-               <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-               <div class="item active">
-               <img src="http://images.all-free-download.com/images/graphiclarge/computer_keyboard_201594.jpg" alt="...">
-                 <!--  <img src="http://thumbs.dreamstime.com/z/high-tech-technology-background-8247407.jpg" alt="..."> -->
-                  <div class="carousel-caption">
-                     <h3>Marco's Portfolio Page!</h3>
-                  </div>
-               </div>
-               <div class="item">
-                  <img src="https://image.freepik.com/free-photo/one-administrator-attack-null-crash-binary_121-65473.jpg" alt="...">
-                 <!--  <img src="http://educhoices.org/cimages/multimages/1/free_technology_courses.jpg" alt="..."> -->
-                  <div class="carousel-caption">
-                     <h3>Marco's Portfolio Page</h3>
-                  </div>
-               </div>
-               <div class="item">
-                  <img src="https://download.unsplash.com/photo-1429051883746-afd9d56fbdaf" alt="...">
-                  <!-- <img src="http://thumbs.dreamstime.com/z/computer-technology-cloud-computing-social-network-icon-33784619.jpg" alt="..."> -->
-                  <div class="carousel-caption">
-                     <h3>Marco's Porftolio Page</h3>
-                  </div>
-               </div>
-            </div>
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
-         </div>
-         <!-- Finish Carousel -->
-      </div>
-      <!--start paragraphs-->
-      <div>
-         <center><img src="https://avatars3.githubusercontent.com/u/14007414?v=3&s=460" align="middle" height="150px" width="150px"></center>
-      </div>
-      <div>
-         <p align="center">Welcome to Marco's Portfolio Page!</p>
-      </div>
-      </br>
-      </br>
-      </br>
-      </br>
-      <!--parallax section-->
-      <!-- Section 1 -->
-      <section id="intro" data-speed="6" data-type="background">
-         <div class="container">
+
+<head>
+    <!-- changed back to 3.3.5 version-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/myportfolio1.css">
+    <title>
+        Marco's Porftolio
+    </title>
+</head>
+
+<body>
+    <!--navbar section-->
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    <!--Jumbotron-->
+    <div class="jumbotron">
+      <h1 id="jumbo">Marco's Portfolio Page</h1>
+      <p>...</p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+    </div>
+
+
+<!--carousel-->
+<header id="myCarousel" class="carousel fade">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- Wrapper for Slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <!-- Set the first background image using inline CSS below. -->
+            <img src="http://eskipaper.com/images/la-skyline-7.jpg">
+        </div>
+        <div class="item">
+            <!-- Set the second background image using inline CSS below. -->
+            <img src="https://image.freepik.com/free-photo/chicago-skyline_21160677.jpg">
+        </div>
+        <div class="item">
+            <!-- Set the third background image using inline CSS below. -->
+            <img src="https://s3.amazonaws.com/s3.imagefinder.co/uploads/2016/01/20143940/boss-fight-free-high-quality-stock-images-photos-photography-new-york-city-960x640-880x587.jpg"> 
+        </div>
+    </div>
+    <!-- Controls --> <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>  <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a> 
+</header>
+
+
+    
+    <!--start paragraphs-->
+    <div>
+        <center><img src="https://avatars3.githubusercontent.com/u/14007414?v=3&s=460" align="middle" height="150px" width="150px">
+        </center>
+    </div>
+    <div>
+        <p align="center">Welcome to Marco's Portfolio Page!</p>
+    </div>
+    </br>
+    </br>
+    </br>
+    </br>
+    <!--parallax section-->
+    <!-- Section 1 -->
+    <section id="intro" data-speed="6" data-type="background">
+        <div class="container">
             Introduction
             <!--start of buttons-->
             <!-- also start of modals upon click of buttons-->
             <div>
-               <button type="button" class="btn btn-info" data-toggle="modal" data-target="#infoModal">Info</button>
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#infoModal">Info</button>
             </div>
             <!--actual modal-->
             <div class="modal fade" tabindex="-1" role="dialog" id="infoModal">
-               <div class="modal-dialog">
-                  <div class="modal-content info">
-                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">A little info:</h4>
-                     </div>
-                     <div class="modal-body">
-                        <p>Information</p>
-                        <p>Marco graduated from Rutgers University with a degree in Biological Sciences. Marco is a student at Rutgers Coding Bootcamp (RCB), an intensive 24-week program at Rutgers University dedicated to designing and building web applications. </p>
-                     </div>
-                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                     </div>
-                  </div>
-                  <!-- /.modal-content -->
-               </div>
-               <!-- /.modal-dialog -->
+                <div class="modal-dialog">
+                    <div class="modal-content info">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                            </button>
+                            <h4 class="modal-title">A little info:</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Information</p>
+                            <p>Marco graduated from Rutgers University with a degree in Biological Sciences. Marco is a student at Rutgers Coding Bootcamp (RCB), an intensive 24-week program at Rutgers University dedicated to designing and building web applications. </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    <!-- /.modal-content -->
+                </div>
+                <!-- /.modal-dialog -->
             </div>
             <!-- /.modal -->
-         </div>
-      </section>
-      <!-- Section 2 -->
-      <section id="home" data-speed="4" data-type="background">
-         <div class="container">
+        </div>
+    </section>
+    <!-- Section 2 -->
+    <section id="home" data-speed="4" data-type="background">
+        <div class="container">
             Skills / Technologies
             <!--section for 2nd button-->
             <div>
-               <button type="button" class="btn btn-info" data-toggle="modal" data-target="#info2Modal">Skills/Technologies</button>
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#info2Modal">Skills/Technologies</button>
             </div>
             <!-- actual 2nd modal -->
             <!-- be aware that data target in the button will have # sign, but id in the modal will not have the # sign-->
             <div class="modal fade" tabindex="-1" role="dialog" id="info2Modal">
-               <div class="modal-dialog">
-                  <div class="modal-content info">
-                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Technologies Used</h4>
-                     </div>
-                     <div class="modal-body">
-                        <p>Skills/Technologies</p>
-                        <p>Marco knows about GIT, COMMANDLINE, HTML, CSS, JAVASCRIPT, BOOTSTRAP, JQUERY, JSON, AJAX, MySQL, APIs, DATABASES, MONGODB, EXPRESS, ANGULARJS, NODEJS</p>
-                     </div>
-                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                     </div>
-                  </div>
-                  <!-- /.modal-content -->
-               </div>
-               <!-- /.modal-dialog -->
+                <div class="modal-dialog">
+                    <div class="modal-content info">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                            </button>
+                            <h4 class="modal-title">Technologies Used</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Skills/Technologies</p>
+                            <p>Marco knows about GIT, COMMANDLINE, HTML, CSS, JAVASCRIPT, BOOTSTRAP, JQUERY, JSON, AJAX, MySQL, APIs, DATABASES, MONGODB, EXPRESS, ANGULARJS, NODEJS</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    <!-- /.modal-content -->
+                </div>
+                <!-- /.modal-dialog -->
             </div>
             <!-- /.modal -->
-         </div>
-      </section>
-      <!-- Section 3 -->
-      <section id="about" data-speed="2" data-type="background">
-         <div class="container">
+        </div>
+    </section>
+    <!-- Section 3 -->
+    <section id="about" data-speed="2" data-type="background">
+        <div class="container">
             Interests / Hobbies
             <div>
-               <button type="button" class="btn btn-info" data-toggle="modal" data-target="#info3Modal">Interests</button>
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#info3Modal">Interests</button>
             </div>
             <!-- actual 3rd modal -->
             <!-- be aware that data target in the button will have # sign, but id in the modal will not have the # sign-->
             <div class="modal fade" tabindex="-1" role="dialog" id="info3Modal">
-               <div class="modal-dialog">
-                  <div class="modal-content info">
-                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Hobbies and Interests</h4>
-                     </div>
-                     <div class="modal-body">
-                        <p>Interests /Hobbies</p>
-                        <p>Hobbies and Interests: Marco is an avid basketball and dodgeball player. Many of you may already know about basketball, but may be unfamiliar (or have forgotten since your days as a child) about dodgeball. Included is a snippet of what dodgeball is. Other interests include geopolitics and general well-being encompassing health, fitness and foods.</p> <a href="https://en.wikipedia.org/wiki/Dodgeball"> what is dodgeball?</a>
-                        </br>
-                        <a href="http://www.merriam-webster.com/dictionary/geopolitics">what is geopolitics?</a>
-                     </div>
-                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                     </div>
-                  </div>
-                  <!-- /.modal-content -->
-               </div>
-               <!-- /.modal-dialog -->
+                <div class="modal-dialog">
+                    <div class="modal-content info">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                            </button>
+                            <h4 class="modal-title">Hobbies and Interests</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Interests /Hobbies</p>
+                            <p>Hobbies and Interests: Marco is an avid basketball and dodgeball player. Many of you may already know about basketball, but may be unfamiliar (or have forgotten since your days as a child) about dodgeball. Included is a snippet of what dodgeball is. Other interests include geopolitics and general well-being encompassing health, fitness and foods.</p> <a href="https://en.wikipedia.org/wiki/Dodgeball"> what is dodgeball?</a>
+                            </br>
+                            <a href="http://www.merriam-webster.com/dictionary/geopolitics">what is geopolitics?</a>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    <!-- /.modal-content -->
+                </div>
+                <!-- /.modal-dialog -->
             </div>
             <!-- /.modal -->
-         </div>
-      </section>
-      <!--finish parallax section-->
-      </div>
-      <div class="one">
-         
-         <ul> <a href="https://www.linkedin.com/profile/view?id=AAIAAArlusYBps7af8UmhetRPFYqwh0on3xWXzk&trk=nav_responsive_tab_profile">Connect with Marco on LinkedIn</a>
-         </ul>
-         <br>
-         <div>
+        </div>
+    </section>
+    <!--finish parallax section-->
+    </div>
+    <div class="one">
+
+        <ul> <a href="https://www.linkedin.com/profile/view?id=AAIAAArlusYBps7af8UmhetRPFYqwh0on3xWXzk&trk=nav_responsive_tab_profile">Connect with Marco on LinkedIn</a>
+        </ul>
+        <br>
+        <div>
             <a href="https://vast-atoll-2874.herokuapp.com/">Here's a link to an example of one of his works: To-Do-List</a>
             </br>
             <a href="https://young-ridge-33853.herokuapp.com/"> Another example of his work: ClickGame</a>
-         </div>
-         </br>
-      </div>
-      <div>
-         <div>
+        </div>
+        </br>
+    </div>
+    <div>
+        <div>
             <p> Here is a list of his GitHub works.</p>
             <!-- this is the section for the github repos-->
             <div class="container">
-               <div class="row">
-                  <div class="col-md-5">
-                     <div class="list-group">
-                     </div>
-                  </div>
-               </div>
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="list-group">
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- end github repos section -->
-         </div>
-      </div>
-      <div class="bgimg">
-    
+        </div>
+    </div>
+    <div class="bgimg">
 
-      </div>
-      <div class="two">
-         
-         
-      </div>
 
-      <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
-      <!--script type="text/javascript" src="js/apiPractice.js"></script-->
-      <script type="text/javascript" src="js/myportfolio1.js"></script>
-   </body>
+    </div>
+    <div class="two">
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!--script type="text/javascript" src="js/apiPractice.js"></script-->
+    <script type="text/javascript" src="js/myportfolio1.js"></script>
+</body>

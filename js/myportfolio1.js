@@ -1,7 +1,11 @@
-   $('.carousel').carousel({
-        interval: 2200
-    });
+   // $('.carousel').carousel({
+   //      interval: 2200
+   //  });
   
+  //new carousel
+ $('.carousel').carousel({
+  interval: 3000 //changes the speed
+  })
 
 //this is for the api function
 console.log("outside of .ready");
