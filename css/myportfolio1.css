@@ -58,7 +58,7 @@ html, body {
     background-color: #fff;
 }
 .carousel, .item, .active {
-    height: 100%;
+    height: 25%;
 }
 .carousel-inner {
     height: 100%;
