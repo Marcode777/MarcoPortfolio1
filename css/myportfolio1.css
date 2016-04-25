@@ -141,11 +141,15 @@ footer {
 
 /* image div section */
 
-.bgimg {
-  background-size:cover;
-  background-image: url();
+#aboutMe {
+  font-size: 25px;
 }
-.two{
-  background-size:cover;
-  background-image: url();
+
+#interests {
+  font-size: 25px;
+}
+
+.description {
+  font-size:16px;
+}
 
