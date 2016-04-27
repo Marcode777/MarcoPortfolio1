@@ -142,6 +142,7 @@ footer {
 /* image div section */
 
 #aboutMe {
+
   font-size: 25px;
 }
 
@@ -153,3 +154,11 @@ footer {
   font-size:16px;
 }
 
+.links{
+  font-size:16px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+  font-weight: bold;
+  color: gray;
+}
