@@ -248,6 +248,7 @@
 }
 
 .devicons-npm:before {
+  font-size: 5em;
   content: "\e61e";
 }
 
