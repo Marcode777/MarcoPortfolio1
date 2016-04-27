@@ -23,6 +23,7 @@
 }
 
 .devicons-git:before {
+  font-size: 5em;
   content: "\e602";
 }
 
