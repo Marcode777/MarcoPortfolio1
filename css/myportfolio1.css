@@ -1,5 +1,4 @@
 
-@media all and (max-width: 1024px) {
 body {
 
 background-color: black;
@@ -112,7 +111,7 @@ footer {
 
 /*parallax section*/
 
-#intro { 
+/*#intro { 
     background: url(http://www.hdnicewallpapers.com/Walls/Big/Countries%20and%20City/Empire_State_Building_Skyscraper_in_New_York_City_USA_HD_Wallpaper.jpg) 50% 0 fixed; 
     height: auto;  
     margin: 0 auto; 
@@ -139,9 +138,21 @@ footer {
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
     padding: 100px 0;
     color: #fff;
-}
+}*/
 
 /* image div section */
+
+
+/*this is for mobile-responsiveness testing just in case, be sure to comment out this specific line for it to work
+*//*@media screen and (max-width: 1000px){
+
+  .navbar{
+    background-color: black;
+  }
+  h1{
+    background-color: black;
+  }
+}*/
 
 #aboutMe {
 
@@ -160,7 +171,17 @@ footer {
   font-size:16px;
 }
 
+
 .navbar-inverse .navbar-nav>li>a:hover{
   font-weight: bold;
   color: gray;
-}}
+}
+
+
+
+
+
+
+
+
+
