@@ -144,12 +144,13 @@ footer {
 
 
 /*this is for mobile-responsiveness testing just in case, be sure to comment out this specific line for it to work
-*//*@media screen and (max-width: 1000px){
+*/
+/*@media screen and (max-width: 1000px){*/
 
-  .navbar{
+  /*.navbar{
     background-color: black;
-  }
-  h1{
+  }*/
+  /*h1{
     background-color: black;
   }
 }*/
