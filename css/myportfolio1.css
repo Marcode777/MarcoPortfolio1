@@ -144,16 +144,19 @@ footer {
 
 
 /*this is for mobile-responsiveness testing just in case, be sure to comment out this specific line for it to work
-*/
-/*@media screen and (max-width: 1000px){*/
+*/ 
+@media screen and (max-width: 640px){
 
-  /*.navbar{
-    background-color: black;
-  }*/
-  /*h1{
+  p {
+    font-size: 15px;
+  }
+  .nav{
     background-color: black;
   }
-}*/
+  h1{
+    background-color: black;
+  }
+}
 
 #aboutMe {
 
