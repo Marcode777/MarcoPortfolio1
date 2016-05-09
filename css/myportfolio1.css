@@ -156,6 +156,16 @@ footer {
   h1{
     background-color: black;
   }
+  .pic{
+    height:50px;
+    width:50px;
+  }
+  .tile{
+    width: 100%;
+    /*-webkit-column-count:3;
+      -moz-column-count:3;
+        column-count:3;*/
+  }
 }
 
 #aboutMe {
