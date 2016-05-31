@@ -112,6 +112,11 @@ footer {
     text-align: center;
 }
 
+.top-buffer{
+  margin-top:30px;
+}
+
+
 /*parallax section*/
 
 /*#intro { 
