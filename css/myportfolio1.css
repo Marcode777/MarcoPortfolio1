@@ -204,6 +204,9 @@ p.apps2{
   font-weight: bold;
 }
 
+.table-striped > tbody > tr:nth-child(even) > th {
+  background-color: gray;
+}
 
 
 
