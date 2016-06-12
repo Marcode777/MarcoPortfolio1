@@ -204,13 +204,10 @@ p.apps2{
   font-weight: bold;
 }
 
-.table-striped > tbody > tr:nth-child(even) > th {
+.table-striped > tbody > tr:nth-child(even) > td, .table-striped > tbody > tr:nth-child(even) > th {
   background-color: gray; 
 }
 
-tbody{
-  background-color:gray;
-}
 
 
 
