@@ -1,10 +1,19 @@
 
 body {
 
-background-color: black;
+background-color: yellow;
 color: white;
 
 }
+
+  body {
+      position: relative; 
+  }
+    #top {padding-top:50px;height:425px;color: #fff; background-color: #1E88E5;}
+  #aboutMe {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #skills {padding-top:50px;height:625px;color: #fff; background-color: #ff9800;}
+  #apps {padding-top:50px;height:375px;color: #fff; background-color: #cce6ff;}
+  #interests {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
 
 .jumbotron{
   background-color: #b3d9ff;
