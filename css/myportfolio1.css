@@ -9,14 +9,14 @@ color: white;
   body {
       position: relative; 
   }
-    #top {padding-top:50px;height:425px;color: #fff; background-color: #1E88E5;}
+    #top {padding-top:50px;height:425px;color: #fff; background-color: gray;}
   #aboutMe {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
   #skills {padding-top:50px;height:625px;color: #fff; background-color: #ff9800;}
   #apps {padding-top:50px;height:375px;color: #fff; background-color: #cce6ff;}
   #interests {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
 
 .jumbotron{
-  background-color: #b3d9ff;
+  background-color: white;
 }
 #jumbo {
   text-align: center;
@@ -219,6 +219,10 @@ p.apps2{
 
 .table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th {
   background-color: blue; 
+}
+
+.pic {
+  position: relative;
 }
 
 

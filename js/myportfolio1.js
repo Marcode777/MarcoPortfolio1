@@ -64,3 +64,5 @@ console.log("outside of .ready");
       }); // end window scroll
    });  // end section function
 }); // close out script
+
+TweenMax.to(".pic", 2, {left:300});
