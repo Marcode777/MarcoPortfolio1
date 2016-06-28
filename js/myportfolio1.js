@@ -65,7 +65,7 @@ console.log("outside of .ready");
    });  // end section function
 }); // close out script
 
-TweenMax.to(".pic", 2, {left:300});
-TweenMax.from("#jumbo", 2, {y:300});
+TweenMax.to(".pic", 2, {x:375});
+TweenMax.from("#jumbo", 2, {x:675});
 
 
