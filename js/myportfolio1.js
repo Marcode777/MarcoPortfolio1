@@ -66,5 +66,6 @@ console.log("outside of .ready");
 }); // close out script
 
 TweenMax.to(".pic", 2, {left:300});
+TweenMax.from("#jumbo", 2, {y:300});
 
 
