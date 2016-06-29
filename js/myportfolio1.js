@@ -67,5 +67,6 @@ console.log("outside of .ready");
 
 TweenMax.to(".pic", 2, {x:375});
 TweenMax.from("#jumbo", 2, {x:675});
+// TweenMax.to(".globe", 6, {left:600});
 
 
