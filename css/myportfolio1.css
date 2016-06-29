@@ -9,11 +9,11 @@ color: white;
   body {
       position: relative; 
   }
-    #top {padding-top:50px;height:425px;color: #fff; background-color: gray;}
-  #aboutMe {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+    #top {padding-top:50px;height:425px;color: black; background-color: gray;}
+  #aboutMe {padding-top:50px;height:500px;color: #fff; background-color: #80d4ff;}
   #skills {padding-top:50px;height:625px;color: #fff; background-color: #ff9800;}
   #apps {padding-top:50px;height:375px;color: #fff; background-color: #cce6ff;}
-  #interests {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #interests {padding-top:50px;height:500px;color: #fff; background-color: #80d4ff;}
 
 .jumbotron{
   background-color: white;
@@ -68,7 +68,7 @@ html, body {
     background-size: 50px;
 }
 .navbar {
-    background-color: #fff;
+    background-color: black;
 }
 .carousel, .item, .active {
     height: 25%;
@@ -233,6 +233,14 @@ p.apps2{
 
 .about {
   position: relative;
+}
+
+.globe {
+  position: relative;
+}
+
+p {
+  color:black;
 }
 
 
