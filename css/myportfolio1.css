@@ -1,7 +1,7 @@
 
 body {
 
-background-color: yellow;
+background-color: black;
 color: white;
 
 }
@@ -9,11 +9,11 @@ color: white;
   body {
       position: relative; 
   }
-    #top {padding-top:50px;height:425px;color: black; background-color: gray;}
-  #aboutMe {padding-top:50px;height:500px;color: #fff; background-color: #80d4ff;}
-  #skills {padding-top:50px;height:625px;color: #fff; background-color: #ff9800;}
-  #apps {padding-top:50px;height:375px;color: #fff; background-color: #cce6ff;}
-  #interests {padding-top:50px;height:500px;color: #fff; background-color: #80d4ff;}
+    #top {padding-top:50px;height:425px;color: black; background-color: white; border: 2px solid gray; border-radius: 5px}
+  #aboutMe {padding-top:50px;height:500px;color: #fff; background-color: white;border: 2px solid gray; border-radius: 5px}
+  #skills {padding-top:50px;height:670px;color: #fff; background-color: gray;border: 2px solid gray; border-radius: 5px}
+  #apps {padding-top:50px;height:375px;color: #fff; background-color: white;border: 2px solid gray; border-radius: 5px}
+  #interests {padding-top:50px;height:500px;color: #fff; background-color: white;border: 2px solid gray; border-radius: 5px}
 
 .jumbotron{
   background-color: white;
@@ -214,11 +214,11 @@ p.apps2{
 }
 
 .table-striped > tbody > tr:nth-child(even) > td, .table-striped > tbody > tr:nth-child(even) > th {
-  background-color: gray; 
+  background-color: white; 
 }
 
 .table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th {
-  background-color: blue; 
+  background-color: white; 
 }
 
 .pic {
@@ -251,5 +251,25 @@ p {
   color:black;
 }
 
+.portfolio {
+  background-color: white;
+  color: white;
+}
+
+th{
+  color:black;
+}
+
+td{
+  color:black;
+}
+
+h1 {
+  color: black;
+}
+
+.apps {
+  position: relative;
+}
 
 
