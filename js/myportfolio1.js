@@ -70,6 +70,7 @@ TweenMax.from("#jumbo", 2, {x:675});
 TweenMax.from(".about", 2, {y:300});
 TweenMax.from(".skills-technologies", 2, {y:300});
 TweenMax.from(".interests-hobbies", 2, {y:300});
+TweenMax.from(".apps", 2, {y:300});
 // TweenMax.to(".globe", 6, {left:600});
 
 
